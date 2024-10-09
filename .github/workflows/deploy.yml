@@ -8,11 +8,11 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: windows-latest  # Changed to use Windows runner
+    runs-on: windows-latest  
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2  # You may update this to v3
+        uses: actions/checkout@v2  
 
       - name: Setup Node
         uses: actions/setup-node@v1
@@ -20,7 +20,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install  # Using `run` instead of `bahmutov/npm-install@v1`
+        run: npm install 
 
       - name: Build project
         run: npm run build
@@ -34,7 +34,7 @@ jobs:
   deploy:
     name: Deploy
     needs: build
-    runs-on: windows-latest  # Changed to use Windows runner
+    runs-on: windows-latest  
     if: github.ref == 'refs/heads/main'
 
     steps:
