@@ -8,7 +8,7 @@ const Navbar = () => {
         <li><a href="#leaderboard" className="hover:underline">Leaderboard</a></li>
         <li><a href="#mindbux" className="hover:underline">Mindbux</a></li>
         <li><a href="https://www.klix.ba/" target="_blank" className="hover:underline">Blog</a></li>
-        <li><a href="#about" className="hover:underline">About Us</a></li>
+        <li><a href="#aboutus" className="hover:underline">About Us</a></li>
         <li><a href="#login" className="hover:underline">Log In</a></li>
         <li><a href="#signup" className="hover:underline">Sign Up</a></li>
       </ul>
