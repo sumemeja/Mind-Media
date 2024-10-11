@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <div className="w-full bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-4 flex justify-between items-center">
+    <div className="w-full bg-gradient-to-r from-[#37271d] to-[#bb642e] text-white p-4 flex justify-between items-center">
       <div className="font-bold text-xl ml-[25px]">logo</div>
 
       <ul className="flex space-x-[35px] mr-[25px]">
