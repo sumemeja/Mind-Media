@@ -2,9 +2,9 @@ import React from 'react';
 
 const Leaderboard = () => {
   const winners = [
-    { name: 'Afan', score: 150, place: '1st', color: 'orange' },
-    { name: 'Sumeja', score: 100, place: '2nd', color: 'silver' },
-    { name: 'Lamija', score: 80, place: '3rd', color: 'red' },
+    { name: 'Melisa', score: 150, place: '1st', color: 'orange' },
+    { name: 'Amar', score: 100, place: '2nd', color: 'silver' },
+    { name: 'Igor', score: 80, place: '3rd', color: 'red' },
   ];
 
   return (
