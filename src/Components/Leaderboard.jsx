@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Leaderboard = () => {
   const winners = [
     { name: 'Melisa', score: 150, place: '1st', color: 'orange' },
