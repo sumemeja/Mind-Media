@@ -4,7 +4,7 @@ import Blog from './Pages/Blog';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Mind-Media">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
