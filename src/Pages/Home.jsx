@@ -78,7 +78,7 @@ export default function Home() {
             </div>
 
             {/* About Us Component */}
-            <div id="aboutus" className="relative mt-[85px] pb-[55px] px-[5%]">
+            <div className="relative mt-[85px] pb-[55px] px-[5%]">
                 <AboutUs />
             </div>
         </div>
