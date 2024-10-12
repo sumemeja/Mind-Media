@@ -1,7 +1,8 @@
 import BG from "./assets/Background.jpeg"; 
 import Navbar from "./Components/Navbar";
 import IphoneFrame from "./Components/IphoneFrame";
-import CharacterImage from './assets/Character.png';
+import MaleCharacter from './assets/male-sprite.png';
+import FemaleCharacter from './assets/female-sprite.png';
 import Leaderboard from "./Components/Leaderboard";
 import AboutUs from "./Components/About Us.jsx";
 
@@ -21,28 +22,35 @@ export default function App() {
             <IphoneFrame />
           </div>
 
-          {/* Character and Buttons Section */}
-          <div className="relative bg-[#f6d4be] rounded-lg w-full lg:w-[50%] flex flex-col items-center mt-[8%] mr-[11%] p-[7%]">
+          {/* Characters and Buttons Section */}
+          <div className="relative bg-[#f6d4be] rounded-lg w-full lg:w-[50%] flex flex-col items-center mt-[8%] mr-[13%] p-[7%]">
 
             {/* Text Above Character Image */}
-            <p className="text-[#37271d] text-[230%] absolute top-[15%] left-[15%]">
+            <p className="text-[#37271d] text-[230%] absolute top-[10%] left-[10%]">
               Let's
             </p>
 
-            {/* Character Image */}
+            {/* Male Character Image */}
             <img
               className="absolute left-5 bottom-5 w-[30%] lg:w-[20%]"
-              src={CharacterImage}
-              alt="Game Character"
+              src={MaleCharacter}
+              alt="Male Game Character"
+            />
+
+            {/* Female Character Image */}
+            <img
+              className="absolute left-[75%] bottom-5 w-[30%] lg:w-[22%] transform scale-x-[-1]"
+              src={FemaleCharacter}
+              alt="Female Game Character"
             />
 
             {/* Buttons */}
-            <div className="relative mt-[3%] ml-[45%] flex flex-col items-center space-y-4">
-              <button className="bg-[#37271d] text-base lg:text-[21px] text-white px-[25%] lg:px-[130px] py-[3%] rounded-md hover:bg-[#da9d76]">
+            <div className="relative mt-[3%] ml-[1%] flex flex-col items-center space-y-4">
+              <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[75px] py-[3%] rounded-md hover:bg-[#da9d76]">
                 Play
               </button>
-              <span className="text-[#37271d] text-lg">and</span>
-              <button className="bg-[#37271d] text-base lg:text-[21px] text-white px-[25%] lg:px-[130px] py-[3%] rounded-md hover:bg-[#da9d76]">
+              <span className="text-[#37271d] lg:text-[25px]">and</span>
+              <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[70px] py-[3%] rounded-md hover:bg-[#da9d76]">
                 Learn
               </button>
             </div>
