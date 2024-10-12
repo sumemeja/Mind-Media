@@ -97,7 +97,9 @@ export default function Blog() {
 
           <p className="text-sm lg:text-base mt-4 font-semibold font-mono" style={{ textAlign: "justify" }}>
             Web stranice za fact checking (provjeru informacija):
+            <a href="https://raskrinkavanje.ba/" target="blank" className="text-blue-500 hover:underline">
               raskrinkavanje.ba
+            </a>
           </p>
         </div>
       </div>
