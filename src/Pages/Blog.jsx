@@ -96,19 +96,15 @@ export default function Blog() {
           </p>
 
           <p className="text-sm lg:text-base mt-4 font-semibold font-mono" style={{ textAlign: "justify" }}>
-            Web stranice za fact checking (provjeru informacija): 
-            <a href="https://raskrinkavanje.ba/" target="blank" className="text-blue-500 hover:underline">
+            Web stranice za fact checking (provjeru informacija):
               raskrinkavanje.ba
-            </a>
           </p>
         </div>
       </div>
 
-      {/* About Us Section */}
-      <div className="flex flex-col lg:flex-row items-center lg:items-start justify-center pb-[3%]">
-        <div id="aboutus" className="relative mt-[85px] pb-[55px] px-[5%]">
-          <AboutUs />
-        </div>
+      {/* About Us Component */}
+      <div className="relative mt-[85px] pb-[55px] px-[5%]">
+        <AboutUs />
       </div>
     </div>
   );
