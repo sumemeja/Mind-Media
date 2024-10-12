@@ -11,7 +11,7 @@ const Leaderboard = () => {
       <h3 className="text-3xl text-center mb-10">Last 3 Winners</h3>
       <div className="flex justify-around">
         {winners.map((winner, index) => (
-          <div key={index} className="text-center bg-[#857944] p-8 rounded-lg w-[250px]">
+          <div key={index} className="text-center bg-[#857944] p-8 rounded-lg w-[250px] transform transition-transform hover:scale-105">
             <div className={`text-${winner.color}-500 text-3xl rounded-full w-24 h-24 flex items-center justify-center mx-auto mb-4`}>
               <span className="text-4xl">{winner.place}</span>
             </div>

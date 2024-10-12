@@ -5,6 +5,8 @@ import MaleCharacter from './assets/male-sprite.png';
 import FemaleCharacter from './assets/female-sprite.png';
 import Leaderboard from "./Components/Leaderboard";
 import AboutUs from "./Components/About Us.jsx";
+import MaleCharJump from "./assets/Male-Jump.gif";
+import Wizard from "./assets/wizard.png";
 
 export default function App() {
   return (
@@ -59,7 +61,16 @@ export default function App() {
       </div>
 
       {/* Leaderboard Component */}
-      <div id="leaderboard" className="relative mt-[85px] pb-[55px] px-[5%]">
+      <div className="relative mt-[85px] pb-[55px] px-[5%]">
+
+        {/* Wizard Character */}
+        <img
+              id="leaderboard"
+              className="absolute left-[70%] bottom-[100%] w-[30%] lg:w-[10%]"
+              src={Wizard}
+              alt="Wizard Game Character"
+            />
+
         <Leaderboard />
       </div>
 
