@@ -2,6 +2,7 @@ import BG from "../assets/Background.jpeg";
 import Navbar from "../Components/Navbar";
 import AboutUs from "../Components/About Us.jsx";
 import Quest from "../assets/Q&A_sesh.jpg";
+import ImgAttach from "../assets/ImageAttach.jpg";
 
 export default function Blog() {
   return (
@@ -30,7 +31,7 @@ export default function Blog() {
           </p>
 
           {/* Quest Image */}
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 mt-7">
             <img src={Quest} alt="Q&A Session" className="w-full max-w-md lg:max-w-lg rounded-md shadow-md" />
           </div>
 
@@ -90,6 +91,11 @@ export default function Blog() {
               <strong>Prijavljivanje i Blokiranje:</strong> Na društvenim mrežama, prijavljivanje dezinformacija i blokiranje izvora koji šire lažne informacije može pomoći u smanjenju njihovog dosega.
             </li>
           </ul>
+
+          {/* ImgAttach Image */}
+          <div className="flex justify-center mb-8 mt-8">
+            <img src={ImgAttach} alt="Attach Image" className="w-full max-w-md lg:max-w-lg rounded-md shadow-md" />
+          </div>
 
           <p className="text-base lg:text-lg mt-8 font-semibold font-mono" style={{ textAlign: "justify" }}>
             Dezinformacije su značajan izazov u digitalnoj eri, ali svijest i obrazovanje su naši najbolji alati u borbi protiv njih. Ostanimo informirani, preispitajmo ono što konzumiramo i promičimo kritičko razmišljanje kako bismo doprinijeli istinitijem i pouzdanijem informacijskom okruženju. Radimo zajedno na snalaženju u složenostima našeg informacijama bogatog svijeta, osiguravajući da istina prevlada nad obmanom.
