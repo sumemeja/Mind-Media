@@ -53,7 +53,7 @@ export default function Home() {
                             </button>
                             <span className="text-[#37271d] lg:text-[25px]">i</span>
                             <Link to="/blog">
-                                <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[70px] py-[3%] rounded-md hover:bg-[#da9d76]">
+                                <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[89px] py-[3%] rounded-md hover:bg-[#da9d76]">
                                     Uci
                                 </button>
                             </Link>
