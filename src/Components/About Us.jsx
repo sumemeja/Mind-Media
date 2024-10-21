@@ -69,7 +69,7 @@ const AboutUs = () => {
         </div>
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
-          <div className="flex">
+          <div className="flex space-x-1">
             <img
               src={AmarCharacter}
               alt="Amar Character"
