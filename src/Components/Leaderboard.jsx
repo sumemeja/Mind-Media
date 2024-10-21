@@ -8,7 +8,7 @@ const Leaderboard = () => {
   return (
     <div className="bg-[#f6d4be] text-[#37271d] p-12 rounded-lg max-w-4xl mx-auto">
       <h2 className="text-5xl font-bold text-center mb-8">LEADERBOARD</h2>
-      <h3 className="text-3xl text-center mb-10">Last 3 Winners</h3>
+      <h3 className="text-3xl text-center mb-10">Posljednja 3 Pobjednika</h3>
       <div className="flex justify-around">
         {winners.map((winner, index) => (
           <div key={index} className="text-center bg-[#857944] p-8 rounded-lg w-[250px] transform transition-transform hover:scale-105">

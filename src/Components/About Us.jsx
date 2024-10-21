@@ -4,16 +4,14 @@ import FemaleCharacter from '../assets/female-sprite.png';
 const AboutUs = () => {
   return (
     <div className="bg-[#f6d4be] p-8 rounded-lg shadow-lg max-w-5xl mx-auto">
-      <h2 id="aboutus" className="text-4xl font-bold text-center mb-4 text-[#37271d]">About Us</h2>
+      <h2 id="aboutus" className="text-4xl font-bold text-center mb-4 text-[#37271d]">O nama</h2>
 
       <p className="text-lg text-[#37271d] text-center mb-6 font-mono">
-        We are dedicated to creating engaging and fun learning experiences for children.
-        Our mission is to combine education with entertainment to provide valuable skills in a
-        way that feels like play.
+      Naš cilj je djeci omogućiti da uče kroz zabavu. Pružamo im korisne vještine kroz aktivnosti koje izgledaju kao igra, čineći učenje zanimljivim i ugodnim.
       </p>
 
       <div className="text-center mb-6">
-        <p className="text-xl text-[#37271d] font-semibold">Our Team</p>
+        <p className="text-xl text-[#37271d] font-semibold">Nas Tim</p>
       </div>
 
       {/* Character Images Section */}
