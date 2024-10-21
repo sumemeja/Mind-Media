@@ -16,8 +16,12 @@ const Navbar = () => {
           <p className="hover:underline">Blog</p>
         </Link>
         <li><a href="#aboutus" className="hover:underline">O nama</a></li>
-        <li><a href="#login" className="hover:underline">Prijavi se</a></li>
-        <li><a href="#signup" className="hover:underline">Registruj se</a></li>
+        <Link to="/login">
+          <p className="hover:underline">Prijavi se</p>
+        </Link>
+        <Link to="/register">
+          <p className="hover:underline">Registruj se</p>
+        </Link>
       </ul>
     </div>
   );
