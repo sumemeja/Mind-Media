@@ -17,7 +17,6 @@ export default function Blog() {
       {/* Main Content Section */}
       <div className="flex flex-col lg:flex-row items-center justify-center pt-[5%] pb-[3%]">
         <div
-          id="aboutus"
           className="relative mt-[5%] pb-11 px-[5%] max-w-6xl mx-auto rounded-lg shadow-lg text-[#37271d] bg-[#f6d4be]"
         >
           {/* Title */}
