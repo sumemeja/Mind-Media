@@ -5,7 +5,6 @@ import MaleCharacter from '../assets/male-sprite.png';
 import FemaleCharacter from '../assets/female-sprite.png';
 import Leaderboard from "../Components/Leaderboard";
 import AboutUs from "../Components/About Us.jsx";
-import MaleCharJump from "../assets/Male-Jump.gif";
 import Wizard from "../assets/wizard.png";
 import { Link } from 'react-router-dom';
 
@@ -30,7 +29,7 @@ export default function Home() {
 
                         {/* Text Above Character Image */}
                         <p className="text-[#37271d] text-[230%] absolute top-[10%] left-[10%]">
-                            Let's
+                            Hajde
                         </p>
 
                         {/* Male Character Image */}
@@ -50,12 +49,12 @@ export default function Home() {
                         {/* Buttons */}
                         <div className="relative mt-[3%] ml-[1%] flex flex-col items-center space-y-4">
                             <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[75px] py-[3%] rounded-md hover:bg-[#da9d76]">
-                                Play
+                                Igraj
                             </button>
-                            <span className="text-[#37271d] lg:text-[25px]">and</span>
+                            <span className="text-[#37271d] lg:text-[25px]">i</span>
                             <Link to="/blog">
                                 <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[70px] py-[3%] rounded-md hover:bg-[#da9d76]">
-                                    Learn
+                                    Uci
                                 </button>
                             </Link>
                         </div>

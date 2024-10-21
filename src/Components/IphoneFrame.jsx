@@ -1,4 +1,4 @@
-import Video from "/tiktok.mp4";
+import Video from "/Influencer_tiktok.mp4";
 
 export default function IphoneFrame() {
   return (
