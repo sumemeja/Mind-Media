@@ -1,4 +1,4 @@
-import Video from "/Influencer.mp4";
+import Video from "/final.mp4";
 
 export default function IphoneFrame() {
   return (
