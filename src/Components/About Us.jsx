@@ -1,5 +1,11 @@
-import MaleCharacter from '../assets/male-sprite.png';
-import FemaleCharacter from '../assets/female-sprite.png';
+import LamijaCharacter from '../assets/Lamija.png';
+import SumejaCharacter from '../assets/Sumeja.png';
+import AfanCharacter from '../assets/Afan.png';
+import TeaCharacter from '../assets/Tea.png';
+import HamzaCharacter from '../assets/Hamza.png';
+import AmarCharacter from '../assets/Amar.png';
+import MelisaCharacter from '../assets/Melisa.png';
+import IgorCharacter from '../assets/Igor.png';
 
 const AboutUs = () => {
   return (
@@ -19,8 +25,8 @@ const AboutUs = () => {
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
           <img
-            src={FemaleCharacter}
-            alt="Female Character"
+            src={LamijaCharacter}
+            alt="Lamija Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
           <p className="mt-2 text-[#37271d] font-semibold">Lamija Veladzic</p>
@@ -28,8 +34,8 @@ const AboutUs = () => {
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
           <img
-            src={FemaleCharacter}
-            alt="Female Character"
+            src={SumejaCharacter}
+            alt="Sumeja Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
           <p className="mt-2 text-[#37271d] font-semibold">Sumeja Mehic</p>
@@ -37,17 +43,8 @@ const AboutUs = () => {
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
           <img
-            src={FemaleCharacter}
-            alt="Female Character"
-            className="w-24 h-24 object-cover rounded-lg"
-          />
-          <p className="mt-2 text-[#37271d] font-semibold">Tea Dedic</p>
-        </div>
-
-        <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
-          <img
-            src={MaleCharacter}
-            alt="Male Character"
+            src={AfanCharacter}
+            alt="Afan Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
           <p className="mt-2 text-[#37271d] font-semibold">Afan Haznadarevic</p>
@@ -55,29 +52,38 @@ const AboutUs = () => {
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
           <img
-            src={MaleCharacter}
-            alt="Male Character"
+            src={TeaCharacter}
+            alt="Tea Character"
+            className="w-24 h-24 object-cover rounded-lg"
+          />
+          <p className="mt-2 text-[#37271d] font-semibold">Tea Dedic</p>
+        </div>
+
+        <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
+          <img
+            src={HamzaCharacter}
+            alt="Hamza Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
           <p className="mt-2 text-[#37271d] font-semibold">Hamza Adilovic</p>
         </div>
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
-          <div className="flex space-x-4">
+          <div className="flex">
             <img
-              src={MaleCharacter}
-              alt="Male Character"
-              className="w-16 h-16 object-cover rounded-lg"
+              src={AmarCharacter}
+              alt="Amar Character"
+              className="w-20 h-20 object-cover rounded-lg"
             />
             <img
-              src={FemaleCharacter}
-              alt="Female Character"
-              className="w-16 h-16 object-cover rounded-lg"
+              src={MelisaCharacter}
+              alt="Melisa Character"
+              className="w-20 h-20 object-cover rounded-lg"
             />
             <img
-              src={MaleCharacter}
-              alt="Male Character"
-              className="w-16 h-16 object-cover rounded-lg"
+              src={IgorCharacter}
+              alt="Igor Character"
+              className="w-20 h-20 object-cover rounded-lg"
             />
           </div>
           <p className="mt-2 text-[#37271d] font-semibold">Our Mentors</p>
