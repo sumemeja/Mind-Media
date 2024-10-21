@@ -22,12 +22,12 @@ export default function Blog() {
         >
           {/* Title */}
           <h1 className="text-4xl lg:text-5xl mb-6 text-[#121b28] pt-[5%]">
-            Razumijevanje Dezinformacija
+            Sta su Dezinformacije?
           </h1>
 
           {/* Intro Paragraph */}
           <p className="text-lg lg:text-xl mb-4 font-semibold font-mono" style={{ textAlign: "justify" }}>
-            U današnjem brzom digitalnom svijetu, širenje informacija je brže i šire nego ikada. Dok ova povezanost donosi brojne prednosti, nosi i značajan nedostatak: proliferaciju dezinformacija. Šta zapravo predstavljaju dezinformacije i zašto je važno prepoznati i boriti se protiv njih?
+            Dezinformacije se odnose na lažne ili obmanjujuće informacije koje su namjerno kreirane i širenje s ciljem obmanjivanja drugih. Za razliku od dezinformacija, koje se mogu dijeliti bez zle namjere, dezinformacije su osmišljene kako bi manipulirale javnim mnijenjem, izazvale nesuglasice ili postigle određene ciljeve. Mogu se javiti u raznim oblicima, uključujući lažne vijesti, manipulirane slike i obmanjujuće objave na društvenim mrežama.
           </p>
 
           {/* Quest Image */}
@@ -37,12 +37,12 @@ export default function Blog() {
 
           {/* Subheading */}
           <h2 className="text-2xl lg:text-3xl font-semibold mt-8 mb-4 text-[#121b28]">
-            Sta su Dezinformacije?
+            Razumijevanje Dezinformacija
           </h2>
 
           {/* Body Paragraph */}
           <p className="text-base lg:text-lg mb-4 font-semibold font-mono" style={{ textAlign: "justify" }}>
-            Dezinformacije se odnose na lažne ili obmanjujuće informacije koje su namjerno kreirane i širenje s ciljem obmanjivanja drugih. Za razliku od dezinformacija, koje se mogu dijeliti bez zle namjere, dezinformacije su osmišljene kako bi manipulirale javnim mnijenjem, izazvale nesuglasice ili postigle određene ciljeve. Mogu se javiti u raznim oblicima, uključujući lažne vijesti, manipulirane slike i obmanjujuće objave na društvenim mrežama.
+            U današnjem brzom digitalnom svijetu, širenje informacija je brže i šire nego ikada. Dok ova povezanost donosi brojne prednosti, nosi i značajan nedostatak: proliferaciju dezinformacija. Šta zapravo predstavljaju dezinformacije i zašto je važno prepoznati i boriti se protiv njih?
           </p>
 
           {/* Subheading */}
@@ -111,7 +111,7 @@ export default function Blog() {
       </div>
 
       {/* About Us Component */}
-      <div className="relative mt-[85px] pb-[55px] px-[5%]">
+      <div className="relative pt-[60px] pb-[55px] px-[5%]">
         <AboutUs />
       </div>
     </div>
