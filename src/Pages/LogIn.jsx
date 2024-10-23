@@ -1,7 +1,7 @@
 import BG from "../assets/Background.jpeg";
 import NavbarHome from "../Components/NavbarHome";
 import { Link } from 'react-router-dom';
-import KnightCharacter from '../assets/Knight.png';
+import Knight from '../assets/Knight.png';
 
 const LogIn = () => {
     return (
@@ -16,9 +16,9 @@ const LogIn = () => {
 
                 <div className="flex justify-center mb-6">
                     <img
-                        src="/path-to-avatar-image.png"
-                        alt="Character Icon"
-                        className="w-16 h-16"
+                        src={Knight}
+                        alt="Knight Character"
+                        className="w-[30%] lg:w-[20%]"
                     />
                 </div>
 
@@ -42,19 +42,13 @@ const LogIn = () => {
                     </button>
                 </form>
 
-                <p className="mt-4 text-[#37271d]">
+                <p className="mt-4 text-[#37271d] font-mono">
                     Nemate nalog?{' '}
                     <Link to="/register">
                         <div className="text-blue-500 hover:underline">Registruj se</div>
                     </Link>
                 </p>
 
-                {/* Knight Character Image */}
-                <img
-                    className="absolute left-[75%] bottom-5 w-[20%] lg:w-[7%]"
-                    src={KnightCharacter}
-                    alt="Knight Game Character"
-                />
             </div>
         </div>
     );
