@@ -19,7 +19,7 @@ export default function IphoneFrame() {
 
       {/* Credits */}
       <p className="mt-4 text-sm text-[#f6d4be] text-center font-mono">
-        Video: Hamza Selimovic, Cast: Kadir Kopic
+        Video: Hamza Selimović, Cast: Kadir Kopić
       </p>
     </div>
   );

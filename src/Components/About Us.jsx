@@ -21,7 +21,7 @@ const AboutUs = () => {
       </div>
 
       {/* Character Images Section */}
-      <div className="grid grid-cols-3 gap-6 justify-center">
+      <div className="grid grid-cols-3 gap-6 justify-center font-mono">
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
           <img
@@ -29,7 +29,7 @@ const AboutUs = () => {
             alt="Lamija Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
-          <p className="mt-2 text-[#37271d] font-semibold">Lamija Veladzic</p>
+          <p className="mt-2 text-[#37271d] font-semibold">Lamija Veladžić</p>
         </div>
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
@@ -38,7 +38,7 @@ const AboutUs = () => {
             alt="Sumeja Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
-          <p className="mt-2 text-[#37271d] font-semibold">Sumeja Mehic</p>
+          <p className="mt-2 text-[#37271d] font-semibold">Sumeja Mehić</p>
         </div>
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
@@ -47,7 +47,7 @@ const AboutUs = () => {
             alt="Afan Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
-          <p className="mt-2 text-[#37271d] font-semibold">Afan Haznadarevic</p>
+          <p className="mt-2 text-[#37271d] font-semibold">Afan Haznadarević</p>
         </div>
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
@@ -56,7 +56,7 @@ const AboutUs = () => {
             alt="Tea Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
-          <p className="mt-2 text-[#37271d] font-semibold">Tea Dedic</p>
+          <p className="mt-2 text-[#37271d] font-semibold">Tea Dedić</p>
         </div>
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
@@ -65,7 +65,7 @@ const AboutUs = () => {
             alt="Hamza Character"
             className="w-24 h-24 object-cover rounded-lg"
           />
-          <p className="mt-2 text-[#37271d] font-semibold">Hamza Adilovic</p>
+          <p className="mt-2 text-[#37271d] font-semibold">Hamza Adilović</p>
         </div>
 
         <div className="flex flex-col justify-center items-center bg-white rounded-lg shadow-md p-4">
@@ -86,7 +86,7 @@ const AboutUs = () => {
               className="w-20 h-20 object-cover rounded-lg"
             />
           </div>
-          <p className="mt-2 text-[#37271d] font-semibold">Our Mentors</p>
+          <p className="mt-2 text-[#37271d] font-semibold">Naši Mentori</p>
         </div>
       </div>
     </div>
