@@ -11,7 +11,7 @@ const LogIn = () => {
         >
             <NavbarHome />
 
-            <div className="bg-[#f6d4be] p-8 rounded-lg shadow-md text-center max-w-md w-full mx-auto mt-[5%]">
+            <div className="bg-[#f6d4be] p-8 rounded-lg shadow-md text-center max-w-md w-full mx-auto mt-[9%] mb-[5%]">
                 <h1 className="text-4xl mb-6 font-bold text-[#37271d]">Prijavi Se</h1>
 
                 <div className="flex justify-center mb-6">
