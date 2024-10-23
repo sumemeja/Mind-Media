@@ -1,6 +1,6 @@
 import BG from "../assets/Background.jpeg";
-import Navbar from "../Components/Navbar";
 import AboutUs from "../Components/About Us.jsx";
+import NavbarHome from "../Components/NavbarHome.jsx";
 
 export default function Game() {
     return (
@@ -9,7 +9,7 @@ export default function Game() {
             style={{ backgroundImage: `url(${BG})` }}
         >
             <div>
-                <Navbar />
+                <NavbarHome />
             </div>
 
             {/* Embedding the link */}
