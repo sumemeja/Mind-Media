@@ -48,9 +48,11 @@ export default function Home() {
 
                         {/* Buttons */}
                         <div className="relative mt-[3%] ml-[1%] flex flex-col items-center space-y-4">
-                            <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[75px] py-[3%] rounded-md hover:bg-[#da9d76]">
-                                Igraj
-                            </button>
+                            <Link to="/game">
+                                <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[75px] py-[3%] rounded-md hover:bg-[#da9d76]">
+                                    Igraj
+                                </button>
+                            </Link>
                             <span className="text-[#37271d] lg:text-[25px]">i</span>
                             <Link to="/blog">
                                 <button className="bg-[#37271d] text-base lg:text-[25px] text-white px-[25%] lg:px-[89px] py-[3%] rounded-md hover:bg-[#da9d76]">
