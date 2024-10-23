@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Logo from '../assets/logo.png';
+import Coin from "../assets/Mindbux.png";
 
 const Navbar = () => {
   return (
@@ -15,7 +16,12 @@ const Navbar = () => {
       <ul className="flex space-x-[35px] mr-[25px]">
         <li><a href="#game" className="hover:underline">Igra</a></li>
         <li><a href="#leaderboard" className="hover:underline">Leaderboard</a></li>
-        <li><a href="#mindbux" className="hover:underline">Mindbux</a></li>
+        <Link to="/mindbux">
+          <div className="flex items-center hover:underline">
+            <p>Mindbux</p>
+            <img src={Coin} alt="Coin" className="w-[20px] h-[20px] ml-2" />
+          </div>
+        </Link>
         <Link to="/blog">
           <p className="hover:underline">Blog</p>
         </Link>
