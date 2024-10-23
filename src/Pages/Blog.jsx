@@ -1,8 +1,8 @@
 import BG from "../assets/Background.jpeg";
-import Navbar from "../Components/Navbar";
 import AboutUs from "../Components/About Us.jsx";
 import Quest from "../assets/Q&A_sesh.jpg";
 import ImgAttach from "../assets/ImageAttach.jpg";
+import NavbarHome from "../Components/NavbarHome.jsx";
 
 export default function Blog() {
   return (
@@ -11,7 +11,7 @@ export default function Blog() {
       style={{ backgroundImage: `url(${BG})` }}
     >
       <div>
-        <Navbar />
+        <NavbarHome />
       </div>
 
       {/* Main Content Section */}
@@ -20,7 +20,7 @@ export default function Blog() {
           className="relative mt-[5%] pb-11 px-[5%] max-w-6xl mx-auto rounded-lg shadow-lg text-[#37271d] bg-[#f6d4be]"
         >
           {/* Title */}
-          <h1 className="text-4xl lg:text-5xl mb-6 text-[#121b28] pt-[5%]">
+          <h1 className="text-4xl lg:text-5xl mb-6 text-[#121b28] pt-[5%] text-center">
             Sta su Dezinformacije?
           </h1>
 

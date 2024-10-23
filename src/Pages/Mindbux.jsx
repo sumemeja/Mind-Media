@@ -1,6 +1,6 @@
 import BG from "../assets/Background.jpeg";
-import Navbar from "../Components/Navbar";
 import Chest from "../assets/Chest.png";
+import NavbarHome from "../Components/NavbarHome";
 
 export default function Mindbux() {
     return (
@@ -9,7 +9,7 @@ export default function Mindbux() {
             style={{ backgroundImage: `url(${BG})` }}
         >
             <div>
-                <Navbar />
+                <NavbarHome />
             </div>
 
             {/* Main Content Section */}
@@ -18,7 +18,7 @@ export default function Mindbux() {
                     className="relative mt-[5%] pb-11 px-[5%] max-w-6xl mx-auto rounded-lg shadow-lg text-[#37271d] bg-[#f6d4be]"
                 >
                     {/* Title */}
-                    <h1 className="text-4xl lg:text-5xl mb-6 text-[#121b28] pt-[5%]">
+                    <h1 className="text-4xl lg:text-5xl mb-6 text-[#121b28] pt-[5%] text-center">
                         Mindbux Nagradni Sistem
                     </h1>
 
