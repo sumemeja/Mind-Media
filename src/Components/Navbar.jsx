@@ -14,7 +14,6 @@ const Navbar = () => {
       </Link>
 
       <ul className="flex space-x-[35px] mr-[25px]">
-        <li><a href="#game" className="hover:underline">Igra</a></li>
         <li><a href="#leaderboard" className="hover:underline">Leaderboard</a></li>
         <Link to="/mindbux">
           <div className="flex items-center hover:underline">
