@@ -25,11 +25,7 @@ export default function Game() {
                     className="shadow-lg rounded-md"
                 />
             </div>
-
-            {/* About Us Component */}
-            <div className="relative mt-[85px] pb-[55px] px-[5%]" id="aboutus">
-                <AboutUs />
-            </div>
+            
         </div>
     );
 }

@@ -108,11 +108,6 @@ export default function Blog() {
           </p>
         </div>
       </div>
-
-      {/* About Us Component */}
-      <div className="relative pt-[60px] pb-[55px] px-[5%]">
-        <AboutUs />
-      </div>
     </div>
   );
 }
