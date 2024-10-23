@@ -12,8 +12,8 @@ const AboutUs = () => {
     <div className="bg-[#f6d4be] p-8 rounded-lg shadow-lg max-w-5xl mx-auto">
       <h2 id="aboutus" className="text-4xl font-bold text-center mb-4 text-[#37271d]">O nama</h2>
 
-      <p className="text-lg text-[#37271d] text-center mb-6 font-mono">
-      Naš cilj je djeci omogućiti da uče kroz zabavu. Pružamo im korisne vještine kroz aktivnosti koje izgledaju kao igra, čineći učenje zanimljivim i ugodnim.
+      <p className="text-lg text-[#37271d] mb-6 font-mono text-justify">
+      Naš cilj je omogućiti vam da učite kroz zabavu. Pružamo vam korisne vještine kroz aktivnosti koje izgledaju kao igra, čineći učenje zanimljivim i ugodnim. Na ovaj način razvijate kreativnost i kritičko razmišljanje, dok naš nagradni sistem motiviše vaš napredak.
       </p>
 
       <div className="text-center mb-6">
