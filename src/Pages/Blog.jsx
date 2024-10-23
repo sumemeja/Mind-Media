@@ -1,8 +1,9 @@
 import BG from "../assets/Background.jpeg";
-import AboutUs from "../Components/About Us.jsx";
 import Quest from "../assets/Q&A_sesh.jpg";
 import ImgAttach from "../assets/ImageAttach.jpg";
 import NavbarHome from "../Components/NavbarHome.jsx";
+import LibrarianTalk from "../assets/LibrarianTalk.png";
+import KingTalk from "../assets/KingTalk.png";
 
 export default function Blog() {
   return (
@@ -15,7 +16,7 @@ export default function Blog() {
       </div>
 
       {/* Main Content Section */}
-      <div className="flex flex-col lg:flex-row items-center justify-center pt-[5%] pb-[3%]">
+      <div className="flex flex-col lg:flex-row items-center justify-center pt-[5%] pb-[5%]">
         <div
           className="relative mt-[5%] pb-11 px-[5%] max-w-6xl mx-auto rounded-lg shadow-lg text-[#37271d] bg-[#f6d4be]"
         >
@@ -44,33 +45,53 @@ export default function Blog() {
             U današnjem brzom digitalnom svijetu, širenje informacija je brže i šire nego ikada. Dok ova povezanost donosi brojne prednosti, nosi i značajan nedostatak: proliferaciju dezinformacija. Šta zapravo predstavljaju dezinformacije i zašto je važno prepoznati i boriti se protiv njih?
           </p>
 
-          {/* Subheading */}
-          <h2 className="text-2xl lg:text-3xl font-semibold mt-8 mb-4 text-[#121b28]">
-            Utjecaj Dezinformacija
-          </h2>
+          {/* Text Section and KingTalk Image */}
+          <div className="flex items-start mb-8">
+            {/* Text Content */}
+            <div className="flex-1 mr-1">
+              {/* Subheading */}
+              <h2 className="text-2xl lg:text-3xl font-semibold mt-8 mb-4 text-[#121b28]">
+                Utjecaj Dezinformacija
+              </h2>
 
-          {/* Body Paragraph */}
-          <p className="text-base lg:text-lg mb-4 font-semibold font-mono" style={{ textAlign: "justify" }}>
-            Posljedice dezinformacija su duboke i dalekosežne. One mogu potkopati povjerenje u institucije, polarizirati zajednice i čak utjecati na izbore. Na primjer, tokom važnih političkih događaja, kampanje dezinformacija mogu uticati na birače i iskriviti demokratske procese. Osim politike, dezinformacije mogu utjecati na javno zdravstvo, kao što se vidjelo tokom pandemije COVID-19, kada su lažne tvrdnje o virusu i vakcinama široko rasprostranjene, otežavajući napore u kontroli izbijanja.
-          </p>
+              {/* Body Paragraph */}
+              <p className="text-base lg:text-lg font-semibold font-mono" style={{ textAlign: "justify" }}>
+                Posljedice dezinformacija su duboke i dalekosežne. One mogu potkopati povjerenje u institucije, polarizirati zajednice i čak utjecati na izbore. Na primjer, tokom važnih političkih događaja, kampanje dezinformacija mogu uticati na birače i iskriviti demokratske procese. Osim politike, dezinformacije mogu utjecati na javno zdravstvo, kao što se vidjelo tokom pandemije COVID-19, kada su lažne tvrdnje o virusu i vakcinama široko rasprostranjene, otežavajući napore u kontroli izbijanja.
+              </p>
+            </div>
 
-          {/* Subheading */}
-          <h2 className="text-2xl lg:text-3xl font-semibold mt-8 mb-4 text-[#121b28]">
-            Kako se Dezinformacije Sire?
-          </h2>
+            {/* KingTalk Image */}
+            <div className="flex justify-start mt-4 ml-16">
+              <img src={KingTalk} alt="King Talk" className="w-full max-w-[250px] lg:max-w-[310px]" />
+            </div>
+          </div>
 
-          {/* Bullet Points */}
-          <ul className="list-disc ml-6 mb-4 font-semibold font-mono" style={{ textAlign: "justify" }}>
-            <li>
-              <strong>Društvene Mreže:</strong> Platforme poput Facebooka, Twittera i Instagrama često su plodno tlo za dezinformacije. Algoritmi prioritiziraju angažman, što može nenamjerno promovirati senzacionalni ili obmanjujući sadržaj.
-            </li>
-            <li>
-              <strong>Eho Komore:</strong> Ljudi obično konzumiraju informacije koje se podudaraju s njihovim postojećim uvjerenjima. To stvara eho komore u kojima dezinformacije mogu napredovati, jer se suprotstavljene tačke gledišta odbacuju, a lažne narative potvrđuju.
-            </li>
-            <li>
-              <strong>Influenseri i Botovi:</strong> Influenseri na društvenim mrežama i automatizirani nalozi mogu pojačati dezinformacije, čineći ih uvjerljivijima i raširenijima.
-            </li>
-          </ul>
+          <div className="flex flex-col lg:flex-row items-start mb-8">
+            {/* LibrarianTalk Image */}
+            <div className="flex justify-start mt-4 mr-4">
+              <img src={LibrarianTalk} alt="Librarian Talk" className="w-full max-w-[200px] lg:max-w-[250px] mr-4" />
+            </div>
+
+            {/* Subheading */}
+            <div className="flex-1">
+              <h2 className="text-2xl lg:text-3xl font-semibold mt-8 mb-4 text-[#121b28]">
+                Kako se Dezinformacije Sire?
+              </h2>
+
+              {/* Bullet Points */}
+              <ul className="list-disc ml-6 font-semibold font-mono" style={{ textAlign: "justify" }}>
+                <li>
+                  <strong>Društvene Mreže:</strong> Platforme poput Facebooka, Twittera i Instagrama često su plodno tlo za dezinformacije. Algoritmi prioritiziraju angažman, što može nenamjerno promovirati senzacionalni ili obmanjujući sadržaj.
+                </li>
+                <li>
+                  <strong>Eho Komore:</strong> Ljudi obično konzumiraju informacije koje se podudaraju s njihovim postojećim uvjerenjima. To stvara eho komore u kojima dezinformacije mogu napredovati, jer se suprotstavljene tačke gledišta odbacuju, a lažne narative potvrđuju.
+                </li>
+                <li>
+                  <strong>Influenseri i Botovi:</strong> Influenseri na društvenim mrežama i automatizirani nalozi mogu pojačati dezinformacije, čineći ih uvjerljivijima i raširenijima.
+                </li>
+              </ul>
+            </div>
+          </div>
 
           <h2 className="text-2xl lg:text-3xl font-semibold mt-8 mb-4 text-[#121b28]">
             Borba Protiv Dezinformacija
