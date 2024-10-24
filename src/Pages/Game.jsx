@@ -14,7 +14,7 @@ export default function Game() {
                 <iframe
                     src="https://scratch.mit.edu/projects/1086328481/embed" 
                     allowTransparency="true"
-                    width="1024"
+                    width="650"
                     height="550"
                     frameBorder="0"
                     scrolling="no"
