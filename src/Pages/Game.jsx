@@ -15,7 +15,7 @@ export default function Game() {
                     src="https://scratch.mit.edu/projects/1086328481/embed" 
                     allowTransparency="true"
                     width="1024"
-                    height="768"
+                    height="550"
                     frameBorder="0"
                     scrolling="no"
                     allowFullScreen
