@@ -12,7 +12,7 @@ export default function Game() {
             {/* Embedding the link */}
             <div className="flex justify-center items-center pt-[9%] pb-[5%]"> 
                 <iframe
-                    src="https://scratch.mit.edu/projects/1085992743/embed"
+                    src="https://scratch.mit.edu/projects/1086328481/embed" 
                     allowTransparency="true"
                     width="1024"
                     height="768"
